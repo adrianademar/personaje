@@ -49,7 +49,7 @@ public class personaje {
         System.out.println("Nombre del personaje: " + nombrePersonaje + ", Nivel del personaje: " + nivelPersonaje + estadoModo);
     }
     
-    public String mostrarEstado() {
+    public String getEstado() {
         String estadoActual = "Nombre del personaje: " + nombrePersonaje + ", Nivel del personaje: " + nivelPersonaje + ", Modo streamer: " + modoStreamer;
         return estadoActual;
     }
