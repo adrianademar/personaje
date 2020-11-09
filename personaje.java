@@ -3,10 +3,10 @@ public class personaje {
     private int nivelPersonaje;
     private boolean modoStreamer;
     
-    public personaje(String nombrePj, boolean activarModoStreamer) {
+    public personaje(String nombrePj, int nivelDePersonaje) {
         nombrePersonaje = nombrePj;
-        modoStreamer = activarModoStreamer;
-        nivelPersonaje = 1;
+        modoStreamer = false;
+        nivelPersonaje = nivelDePersonaje;
     }
     
     public String getNombrePersonaje() {
